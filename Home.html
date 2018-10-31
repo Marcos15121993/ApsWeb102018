@@ -16,11 +16,9 @@
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#">UTFPR-DV</a>
-		<a class="navbar-brand"onclick= "SobreNos()">Sobre nós</a>
-		<a class="navbar-brand">Soluções</a>
-		<a class="navbar-brand">Suporte</a>
-		<a class="navbar-brand" onclick= "Relatorio()">Inserir relatório</a> 
+
+        <a class="navbar-brand"href="#">UTFPR-DV</a>
+		<a class="navbar-brand" href="#" onclick= "Relatorio()">Inserir relatório</a> 
 		
       </div>
     </div>
@@ -28,7 +26,8 @@
   <div class="sidebar">
 		<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:15%">
 			<div class="w3-sidebar w3-light-grey w3-card" style="width:15%">
-				<br><a href="/home" class="w3-bar-item w3-button">SAIR</a></br>
+				<br></br>
+				<a class="w3-bar-item w3-button" onclick= "Sair()">SAIR</a> 
 			</div>
 		</div>
 	</div>
@@ -40,7 +39,9 @@
 		function SobreNos(){
 			location.href="Sobre.html"
 		}
-		
+		function Sair(){
+			location.href="Login.html"
+		}
 		</script>
 		
 		

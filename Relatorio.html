@@ -1,0 +1,48 @@
+
+<html>
+<head>
+  <title> GD HOME </title>
+  <meta charset="utf-8">
+   
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="css/signin.css" rel="stylesheet">
+
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+      	
+        <a class="navbar-brand"href="#">UTFPR-DV</a>
+		<a class="navbar-brand" href="#" onclick= "Relatorio()">Inserir relatório</a> 
+		
+      </div>
+    </div>
+  </nav>
+  <div class="sidebar">
+		<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:15%">
+			<div class="w3-sidebar w3-light-grey w3-card" style="width:15%">
+				<br></br>
+				<a class="w3-bar-item w3-button" onclick= "Sair()">SAIR</a> 
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript">
+		function Relatorio(){
+			location.href="Relatorio.html"
+		}
+		function SobreNos(){
+			location.href="Sobre.html"
+		}
+		function Sair(){
+			location.href="Login.html"
+		}
+		</script>
+		
+		
+</body></html>
